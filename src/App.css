@@ -23,6 +23,27 @@ br {
 *:disabled {
   cursor: not-allowed;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: black;
+  height: 4rem;
+  font-size: large;
+}
+span {
+  margin: 10px;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
 .homeContainer {
   position: fixed;
   display: flex;

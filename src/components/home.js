@@ -16,6 +16,15 @@ function Home() {
           </Link>
         </div>
       </div>
+      <footer>
+        Made by Katie :)
+        <span>
+          <a
+            href='https://github.com/katieyan1'
+            class='fab fa-github fa-lg'
+          ></a>
+        </span>
+      </footer>
     </div>
   );
 }
