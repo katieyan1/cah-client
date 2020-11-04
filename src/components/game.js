@@ -77,7 +77,9 @@ function Game({ name, socket }) {
     console.log(myCards);
     socket.emit('g-newCard', myCards);
   };
-
+  const getFaviconEl = () => {
+    return document.getElementById('favicon');
+  };
   let showJudge = null;
   let showBlackCard = null;
   let showReceived = null;
@@ -90,6 +92,8 @@ function Game({ name, socket }) {
     showBlackCard = <div className='blackCard'>{blackCard}</div>;
   }
   if (judge === me) {
+    const favicon = getFaviconEl();
+    favicon.href = 'black_favicon.ico';
     showReceived = (
       <div>
         <h3 style={{ textAlign: 'center' }}>Received Cards: </h3>
@@ -109,6 +113,8 @@ function Game({ name, socket }) {
       </div>
     );
   } else {
+    const favicon = getFaviconEl();
+    favicon.href = 'white_favicon.ico';
     showReceived = null;
   }
   if (winnerRevealed) {
