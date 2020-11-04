@@ -4,13 +4,11 @@ button {
   cursor: pointer;
   border: none;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 input::placeholder {
   text-align: left;
 }
@@ -23,7 +21,6 @@ br {
 *:disabled {
   cursor: not-allowed;
 }
-
 footer {
   position: fixed;
   left: 0;
@@ -53,12 +50,10 @@ a:active {
   transform: translate(-50%, -50%);
   align-items: center;
 }
-
 .homeContainer > div {
   width: 30%;
   margin-top: 10px;
 }
-
 .joinCreateContainer {
   position: fixed;
   display: flex;
@@ -69,11 +64,9 @@ a:active {
   align-items: center;
   padding: 5px;
 }
-
 .joinCreateContainer > div {
   margin-bottom: 5px;
 }
-
 .room-info {
   width: 20rem;
 }
@@ -81,11 +74,9 @@ a:active {
 .room-info > h2 {
   text-align: center;
 }
-
 .playerContainer {
   align-self: start;
 }
-
 .playerItem {
   width: 12rem;
   border-radius: 5px;
@@ -100,12 +91,10 @@ a:active {
   transform: translate(-50%, 0%);
   align-items: center;
 }
-
 .cardContainer {
   display: flex;
   margin-top: 1rem;
 }
-
 .whiteCard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -121,11 +110,9 @@ a:active {
   display: inline-flex;
   align-items: flex-start;
 }
-
 .whiteCard:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
 .blackCard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -139,13 +126,11 @@ a:active {
   outline: none;
   color: white;
 }
-
 .playerPointList {
   position: fixed;
   margin: 3rem;
   padding: 0;
 }
-
 .judge {
   margin-top: 15px;
 }
